@@ -12,3 +12,5 @@ The outputter will be a bridge between the digital sphere and the physical space
 
 
 *Concept and realisation: Ulf Treger, Hamburg :sweat_drops: [www.dekoder.de](http://www.dekoder.de), [@ulf_t](https://twitter.com/ulf__t)*
+
+![Output](https://pbs.twimg.com/media/C5XbiSoWMAIYTkd.jpg)
