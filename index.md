@@ -16,4 +16,6 @@ The printer might be a bridge between the digital sphere and the physical space.
 
 The project is under development, next aim is to assemble a prototype. See [https://github.com/ut/PRNSTN](https://github.com/ut/PRNSTN) for the software repository, a [hardware setup](hardware.html) will be documented soon. 
 
+There is a RIOT room for this project: [#intprn:matrix.org](https://riot.im/app/#/room/#intprn:matrix.org)
+
 ![Output](https://pbs.twimg.com/media/C5XbiSoWMAIYTkd.jpg)
