@@ -1,3 +1,7 @@
+---
+layout: pages
+---
+
 # Hardware assembly
 
 As part of the [INTPRN](/) project, we document here the needed components for a basic setup and their assembly. Other parts of the 
