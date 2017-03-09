@@ -12,7 +12,7 @@ The printer might be a bridge between the digital sphere and the physical space.
 
 ## Development
 
-The project is under development, next aim is to assemble a prototype. See [https://github.com/ut/PRNSTN](https://github.com/ut/PRNSTN) for the software repository, a [hardware setup](/hardware/) will be documented soon. 
+The project is under development, next aim is to assemble a prototype. See [https://github.com/ut/PRNSTN](https://github.com/ut/PRNSTN) for the software repository, a [hardware setup](/hardware.html) will be documented soon. 
 
 
 *Ulf Treger, Hamburg :sweat_drops: [www.dekoder.de](http://www.dekoder.de), [@ulf_t](https://twitter.com/ulf__t)*
