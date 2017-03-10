@@ -5,25 +5,49 @@ body {
   line-height: 1.5rem;
   background-image: url(../../images/backgrounds/INTPRN_pattern_as_widescreen_banner_blank_c_s.png);
 }
+@media (max-width: 35em) {
+  body {
+    padding: 10px 20px;
+
+  }
+}
+
+img {
+  width: 100%;
+}
+img.emoji {
+  width: auto;
+}
 
 header {
   text-align:center;
 }
 
 header img {
-    width: 300px;
+    max-width: 300px;
     text-align: center;
 }
 main {
   padding: 50px 100px;
   margin: 20px 100px;
   background-color: white;
-
+}
+@media (max-width: 35em) {
+  main {
+    padding: 10px 10px;
+    margin: 50px 20px;
+  }
 }
 footer {
   padding: 50px 100px;
   margin: 20px 100px;
   background-color: white;
+}
+@media (max-width: 35em) {
+  footer {
+    padding: 10px 10px;
+    margin: 50px 20px;
+  }
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Oswald', sans-serif;

@@ -1,3 +1,3 @@
 <footer>
-  <em>Ulf Treger, Hamburg <g-emoji alias="sweat_drops" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a6.png" ios-version="6.0"><img class="emoji" alt=":sweat_drops:" height="20" width="20" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a6.png"></g-emoji> <a href="http://www.dekoder.de">www.dekoder.de</a>, <a href="https://twitter.com/ulf__t">@ulf_t</a></em>
+  <em>Contact: Ulf Treger, Hamburg <g-emoji alias="sweat_drops" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a6.png" ios-version="6.0"><img class="emoji" alt=":sweat_drops:" height="20" width="20" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a6.png"></g-emoji> <a href="http://www.dekoder.de">www.dekoder.de</a>, <a href="https://twitter.com/ulf__t">@ulf_t</a></em>
 </footer>
