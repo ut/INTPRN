@@ -10,11 +10,18 @@ project are [a software script](https://github.com/ut/PRNSTN) to run a print sta
 ## Components
 
 * Thermal Printer, Model ZJ-5890T
-* Raspberry Pi w/WLAN USB Stick
+* Raspberry Pi 2 Version B w/WLAN USB Stick and Raspian OS
 * GPIO Breakout
 * Push button
 * Cables
 
-(A more detailed list will follow)
+A more detailed list of these components will follow.
 
+See [Raspberry Pi Setup](controller.html)
+
+## Connect the push button with the Raspberry PI
+
+(Pending)
+
+![Output](images/IMG_20170302_122805241_k.jpg)
 
