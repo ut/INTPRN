@@ -11,8 +11,15 @@ Added a Gemfile with the following content
     gem "github-pages", group: :jekyll_plugins
 ```
 
-(See [pages.github.com/versions](https://pages.github.com/versions/) for the current versions of Jekyll and more informations about the [github-pages](https://github.com/github/pages-gem) gem)
+(See [pages.github.com/versions](https://pages.github.com/versions/) for the current dependency versions of gems and more informations about the [github-pages](https://github.com/github/pages-gem) gem)
 
 Added a css folder with a main.scss file
+
+### Run locally
+
+```
+    bundle exec jekyll serve
+``
+This will serve the rendered site via http://127.0.0.1:4000/INTPRN/
 
 

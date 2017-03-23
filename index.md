@@ -14,8 +14,14 @@ The printer might be a bridge between the digital sphere and the physical space.
 
 ## Development
 
-The project is under development, next aim is to assemble a prototype. See [https://github.com/ut/PRNSTN](https://github.com/ut/PRNSTN) for the software repository, a [hardware setup](hardware.html) will be documented soon. 
+The project is under development. 
 
-There is a RIOT room for this project: [#intprn:matrix.org](https://riot.im/app/#/room/#intprn:matrix.org)
+See the github repository [https://github.com/ut/PRNSTN](github.com/ut/PRNSTN) for the ruby script running the printer.
+
+Our next aim is to assemble a prototype with all hardware components needed and to develop a stable/waterproof cover. We'll document the [hardware setup](hardware.html) step by step to make replication of the setup easy and transparent. There is an extra page describing the configuration of the [Raspi](controller.html)
+
+### Contributions and support
+
+There is a RIOT chatroom for this project. Join it at [#intprn:matrix.org](https://riot.im/app/#/room/#intprn:matrix.org)
 
 ![Output](https://pbs.twimg.com/media/C5XbiSoWMAIYTkd.jpg)
