@@ -9,11 +9,12 @@ project are [a software script](https://github.com/ut/PRNSTN) to run a print sta
 
 ## Components
 
-* Thermal Printer, Model ZJ-5890T
-* Raspberry Pi 2 Version B w/WLAN USB Stick and Raspian OS
-* GPIO Breakout
-* Push button
+* Thermal Printer, Model ZJ-5890T (194mm L x 133mm B x 144mm H)
+* Raspberry Pi 2 Version B w/WLAN USB Stick and Raspian OS  ( 88mm + 12mm WLAN USB Stick = 100m L x 60mm B x 20mm H)
+* GPIO Breakout (e.g. Adafruit Assembled Pi Cobbler Plus Breakout Cable)
+* Push button  (e.g. Conrad Drucktaster T604 = TS695)
 * 1k and 10k ohm resitors
+* Breadboard (e.g. Breadboard 400(300/100))
 * Cables
 * Thermalpaper 58mm x 50m 
 
@@ -36,7 +37,7 @@ See the tutorial in [Raspberry Pi Workshop: 10. Push Buttons](http://workshop.ra
 
 (Pending)
 
-## Test the setup
+## Test the setup w/Ruby
 
 (Pending)
 
