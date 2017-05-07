@@ -49,6 +49,11 @@ Then go to CUPS at https://localhost:631/ + select "Adding Printers and Classes"
 
 See [scruss.com/blog/2015/07/12/thermal-printer-driver-for-cups-linux-and-raspberry-pi-zj-58](http://scruss.com/blog/2015/07/12/thermal-printer-driver-for-cups-linux-and-raspberry-pi-zj-58/) for a detailed description.
 
+
+## Assemble the hardware
+
+[Put together the pushputton on a breadboard](hardware.html) to trigger the printer
+
 ## Install PRNSTN script
 
 PRNSTN is the script that turns this setup into an internet printing station.
