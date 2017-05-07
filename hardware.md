@@ -39,8 +39,63 @@ See the tutorial in [Raspberry Pi Workshop: 10. Push Buttons](http://workshop.ra
 
 ## Test the setup w/Ruby
 
-(Pending)
+To verify the function of the push button, you can test it with a simple Ruby script.
 
+First install some libs and dependencies:
+
+```
+ sudo gem install ruby-gpio
+ sudo apt-get install -y ruby-dev
+ sudo gem install wiringpi --verbose --no-ri --no-rdoc
+```
+
+Save the following script on the raspi, e.g. at the users home folder:
+
+```
+  $ vi pushbutton.rb
+```
+
+
+```ruby
+  #!/usr/bin/env ruby
+
+  require 'rubygems'
+  require 'wiringpi'
+
+  io = WiringPi::GPIO.new do |gpio|
+    gpio.pin_mode(4, WiringPi::INPUT)
+  end
+
+  # wiringPi 4 == Raspi pin 23
+  pin_state = io.digital_read(4) 
+  # pin_state should be "1"
+  puts pin_state
+
+  loop do
+   pin_state = io.digital_read(4)
+   if pin_state == 0
+          puts "push!push!"
+   else
+          puts "-----"
+   end
+   io.delay(600)
+  end
+```
+
+Save the script and execute it with sudo ('wiringpi' insists of superuser-rights)
+
+```
+  $ ruby pushbutton.rb
+```
+
+The script will listen if the pushbutton has been pressed (it will read any changes at Raspi pin no. 23) and will give a visual feedback. So if everything is assembled and connected correctly, you'll get a ...
+
+```
+  Push!Push!
+```
+... everytime you press the pushbutton.
+
+The script is inspired by the tutorial [Raspberry Pi Workshop: 8. Blinking a LED](http://workshop.raspberrypiaustralia.com/led/blink/2014/08/31/08-blinking-an-led/), check it for a more detailed explanation of all steps and a table of the different pin numbering of Raspi and wiringPi.
 
 
 
