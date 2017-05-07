@@ -4,9 +4,19 @@ layout: pages
 
 # Raspberry Pi Setup
 
+Login via desktop or remote via SSH with default user Pi with password
+
+```
+ raspberry
+```
+
+Change the default password after first login and note it somewhere.
+
 Initial configuration after first run:
 
 * Setup internet connection (via WLAN oder Ethernet)
+
+
 
 ## Install CUPS
 
