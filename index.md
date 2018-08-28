@@ -22,10 +22,12 @@ See the github repository [github.com/ut/PRNSTN](https://github.com/ut/PRNSTN) f
 
 Our next aim is to assemble a prototype with all hardware components needed and to develop a stable/waterproof cover. We'll document the [hardware setup](hardware.html) step by step to make replication of the setup easy and transparent. There is an extra page describing the configuration of the [Raspberry Pi](controller.html). We also develop a stable and waterproof casing for the printer. This setup will be documented soon.
 
-The project is supported by [Fabulous St. Pauli](http://www.fablab-hamburg.org/) :))
+## Credits
+
+The project is kindly supported by [Fabulous St. Pauli](http://www.fablab-hamburg.org/) Hamburg, NEW HAMBURG Festival SOLIPOLIS and by kunst- und kulturverein spedition in Bremen :))
 
 ### Contributions and support
 
-Support ist welcome, especially for the setup of the Raspis and a stable and persistant configuration of the wireless network. Contact us via [Github](https://github.com/ut/PRNSTN). And there is a RIOT chatroom for this project. Join it at [#intprn:matrix.org](https://riot.im/app/#/room/#intprn:matrix.org)
+Support ist welcome, especially for the setup of the Raspis and a stable and persistant configuration of the wireless network. Contact us via [Github](https://github.com/ut/PRNSTN). And there is a RIOT chatroom for this project. Join it at [#intprn:matrix.org](https://riot.im/app/#/room/#intprn:matrix.org) or write an email to INTPRN@dekoder.de
 
 ![Output](https://pbs.twimg.com/media/C5XbiSoWMAIYTkd.jpg)
