@@ -2,11 +2,9 @@
 layout: pages
 ---
 
-# Prepare
-
-See https://github.com/ut/INTPRN/wiki for OS installation
-
 # Raspberry Pi Setup
+
+See [wiki](https://github.com/ut/INTPRN/wiki) for OS installation on your Raspi with [Raspian](https://www.raspbian.org/).
 
 Start your Raspi, login via desktop or remote via SSH with default user Pi with password
 
