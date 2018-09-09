@@ -49,6 +49,13 @@ If you use a ZJ-58 thermal printer via USB, you need to install the CUPS filter 
 
 Then go to CUPS at https://localhost:631/ + select "Adding Printers and Classes", then "Printers: Add Printer" and add printer connected via "usb://Unknown/Printer".
 
+To allow the Raspeberry default user "pi" to access the CUPS admin features:
+
+```
+    $ sudo usermod -aG lpadmin pi
+    $ sudo service cups restart
+```
+
 See [scruss.com/blog/2015/07/12/thermal-printer-driver-for-cups-linux-and-raspberry-pi-zj-58](http://scruss.com/blog/2015/07/12/thermal-printer-driver-for-cups-linux-and-raspberry-pi-zj-58/) for a detailed description.
 
 
