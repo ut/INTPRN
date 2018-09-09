@@ -11,7 +11,7 @@ project are [a software script](https://github.com/ut/PRNSTN) to run a print sta
 
 * Thermal Printer, Model ZJ-5890T (194mm L x 133mm B x 144mm H)
 * Raspberry Pi 2 Version B w/WLAN USB Stick and Raspian OS  ( 88mm + 12mm WLAN USB Stick = 100m L x 60mm B x 20mm H)
-* GPIO Breakout (e.g. Adafruit Assembled Pi Cobbler Plus Breakout Cable)
+* GPIO Breakout (e.g. Adafruit Assembled Pi Cobbler + Breakout Cable)
 * Push button  (e.g. Drucktaster T604 = TS695)
 * 1k and 10k ohm resistors
 * Breadboard (e.g. Breadboard 400(300/100) transparent)
@@ -33,9 +33,7 @@ See [Raspberry Pi Setup](controller.html)
 
 See the tutorial in [Raspberry Pi Workshop: 10. Push Buttons](http://workshop.raspberrypiaustralia.com/button/2014/08/31/10-push-buttons/), which we used as a reference for our setup (Thanks to the authors Marcus Schappi and Justy Clayden). Or check a slightly different setup at [Raspberry Pi: Button-Input (Taster)](https://raspuino.wordpress.com/2014/03/26/raspberry-pi-button-input-taster/) (german)
 
-## Connect the breadboard with the Raspberry PI
-
-(Pending)
+Finally Connect the breadboard to the Raspberry PI with a GPIO Ribbon Cable
 
 ## Test the setup w/Ruby
 
@@ -97,5 +95,7 @@ The script will listen if the pushbutton has been pressed (it will read any chan
 
 The script is inspired by the tutorial [Raspberry Pi Workshop: 8. Blinking a LED](http://workshop.raspberrypiaustralia.com/led/blink/2014/08/31/08-blinking-an-led/), check it for a more detailed explanation of all steps and a table of the different pin numbering of Raspi and wiringPi.
 
+### Use the raspi as a print server w/PRNSTN
 
+Proceed to [github.com/ut/PRNSTN](https://github.com/ut/PRNSTN) to install and run the raspi as a printer server with its own social media account.
 
