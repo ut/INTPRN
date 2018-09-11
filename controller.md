@@ -12,12 +12,13 @@ Start your Raspi, login via desktop or remote via SSH with default user Pi with 
  raspberry
 ```
 
-Change the default password after first login and note it somewhere.
+Change the default password after first login and note it somewhere!
 
 Initial configuration after first run:
 
+* Set Timezone
 * Setup internet connection (via WLAN oder Ethernet)
-
+* Install Updates
 
 
 ## Install CUPS
@@ -29,12 +30,26 @@ Initial configuration after first run:
     $ sudo /etc/init.d/cups start
 ```
 
+You can reach the CUPS Webinterface via http://localhost:361
+
+To allow your pi user to add printers:
+
+```
+    $ sudo usermod -aG lpadmin pi
+    $ sudo service cups restart
+```
+
+
+
 ## Install SQLite3
 
 ```
     sudo apt-get install sqlite3 ruby-sqlite3 libsqlite3-dev
 ```
 
+
+
+    
 
 ## [Optional] Install ZJ-58 CUPS filter 
 
