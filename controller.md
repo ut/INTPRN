@@ -12,13 +12,14 @@ Start your Raspi, login via desktop or remote via SSH with default user Pi with 
  raspberry
 ```
 
-Change the default password after first login and note it somewhere!
+Initial configuration:
 
-Initial configuration after first run:
-
+* Change the default password after first login and note it somewhere!
 * Set Timezone
 * Setup internet connection (via WLAN oder Ethernet)
+* Run raspi-config > 7 Advanced Options to enable SSHD
 * Install Updates
+
 
 
 ## Install CUPS
